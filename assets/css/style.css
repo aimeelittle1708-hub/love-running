@@ -1,14 +1,7 @@
-/*Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap'
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-.oswald-<uniquifier> {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-
+/* Lato classes */
 .lato-thin {
   font-family: "Lato", sans-serif;
   font-weight: 100;
@@ -68,37 +61,41 @@
   font-weight: 900;
   font-style: italic;
 }
-/* Asterisk wildcard selector to overide default styles added by the browser */
+
+/* Generic Oswald class (since placeholders break CSS) */
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Wildcard selector to override browser defaults */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles*/
-    color: #3a3a3a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #3a3a3a;
 }
 
 /* Header */
 header {
-    background-color:lightcoral
+  background-color: lightcoral;
 }
 
 /* Main content */
 main {
-    background-color: lightblue;
-    /*make main tkae up surplus space to push footer to the bottom*/
-    flex: 1 0 auto
+  background-color: lightblue;
+  flex: 1 0 auto; /* Push footer to the bottom */
 }
-
 
 /* Footer */
 footer {
-    background-color: orange;
-    
-}   
+  background-color: orange;
+}
