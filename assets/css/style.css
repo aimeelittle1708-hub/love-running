@@ -151,10 +151,20 @@ main {
   background-color: lightblue;
   /* Push footer to the bottom */
   flex: 1 0 auto; 
+
   margin-top: 47px;
 }
 
 /* Footer */
-footer {
-  background-color: orange;
+#social-media {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#social-media i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 }
