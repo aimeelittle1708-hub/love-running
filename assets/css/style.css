@@ -148,12 +148,18 @@ nav {
 }
 /* Main content */
 main {
-  background-color: lightblue;
+  
   /* Push footer to the bottom */
   flex: 1 0 auto; 
-
   margin-top: 47px;
 }
+  /* Hero Section*/
+#hero {
+  height: 600px;
+  width: 100%;
+  background-color: lightgreen;
+}
+
 
 /* Footer */
 #social-media {
