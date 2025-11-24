@@ -253,6 +253,12 @@ color:#ffffff;
     /* Override the heading colour set in general styles */
     color: #fafafa;
 }
+
+/* Gallery pages*/
+#photos img {
+  width: 100%;
+
+}
    
 /* Footer */
 #social-media {
