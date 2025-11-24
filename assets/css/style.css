@@ -180,6 +180,7 @@ main {
 color:#ffffff;  
 }
 
+/* Reasons section */
 #reasons {
   width: 90%;
   margin: 20px auto;
@@ -225,7 +226,7 @@ color:#ffffff;
 
 /* meet up times section */
   #times {
-    background: url ('../assets/images/dublin-city.webp') no-repeat center/cover;
+    background: url("../images/dublin-city.webp") no-repeat center center/cover;
     /* Handles responsivity without the need for media query */
     display: flex;
     flex-wrap: wrap; 
@@ -323,6 +324,8 @@ color:#ffffff;
         text-align: end;
         align-self: flex-end;
     }
+
+    
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
